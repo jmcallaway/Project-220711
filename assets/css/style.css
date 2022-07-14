@@ -1,9 +1,9 @@
-/* TODO: Label selector type */
+/* TODO: Universal Selector */
 * {
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
-/* TODO: Label selector type */
+/* TODO: Type/Element Selector */
 body {
 	background-color: lemonchiffon;
 }
@@ -15,19 +15,38 @@ footer {
 	line-height: 100px;
 	color: #f0ead6;
 	background-color: #191970;
+	border: solid;
+	border-color: red;
+	padding: 20px;
+	margin: 20px;
+}
+
+img {
+	border: solid;
+	border-color: red;
+	padding: 20px;
+	margin: 20px;
 }
 
 figure {
 	width: 200px;
 	background-color: #f0ead6;
+	border: solid;
+	border-color: red;
+	padding: 20px;
+	margin: 20px;
 }
 
-/* TODO: Label selector type */
+/* TODO: Class Selector */
 .highlighted-text {
 	font-weight: bolder;
+	border: solid;
+	border-color: red;
+	padding: 20px;
+	margin: 20px;
 }
 
-/* TODO: Label selector type */
+/* TODO: ID Selector */
 #contact-section {
 	background-color: #f0ead6;
 }
